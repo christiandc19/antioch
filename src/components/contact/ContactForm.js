@@ -28,6 +28,7 @@ const ContactForm = () => {
 
     return (
         <>
+<div className="contactform">
 
 <section className="container">
 <div>
@@ -60,7 +61,7 @@ const ContactForm = () => {
     
     <div class="get_form_inner2">
             <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3234525661"> +1 (123) 452-5661</a></p>
+            <p><AiOutlinePhone /><a href="tel:3234525661"> +1 (323) 452-5661</a></p>
     </div>
 
     <div class="get_form_inner2">
@@ -70,7 +71,7 @@ const ContactForm = () => {
 
     <div class="get_form_inner2">
             <h2>LOCATION</h2>
-            <p><BsFillPinMapFill />3720 Sunset Ln., Suite B, Antioch CA 94509</p>
+            <p><BsFillPinMapFill /> 3720 Sunset Ln., Suite B, Antioch CA 94509</p>
     </div>
 
 </div>
@@ -84,7 +85,7 @@ const ContactForm = () => {
 
 
 
-
+</div>
         </>
     )
 }
